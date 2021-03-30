@@ -1,0 +1,30 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Ejercicio 4 - formulario</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+			</nav>
+		</header>
+		<main>
+			<section>
+				<form action="guarda.php" method="POST">
+					<fieldset>
+						<legend>Detalles de Regristro</legend>
+						<table align="center">
+							<tr>
+								<td><label for="Universidad">universidad:</label></td>
+								<td><input type="text" id ="universidad" name="universidad"></td>
+							</tr>
+
+						</table>
+					</fieldset>
+				</form>
+			</section>
+		</main>
+	</body>
+	</html>
